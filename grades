@@ -1,0 +1,11 @@
+# Grades module
+
+# get student grades by student ID, grades
+
+# Calculate total GPA
+
+# calculate GPA by current semester
+
+# if student gpa < 2, student is on probation
+
+# if gpa < 1, student is failing
