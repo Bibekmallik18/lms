@@ -11,3 +11,5 @@ I'm starting a project to build out a Learning Management System (LMS) in Python
 
 This list will be updated as the project changes.
 
+# Basic Architecture: 
+![image](https://user-images.githubusercontent.com/94079137/202908128-9608d9c8-cae7-4da0-a1c8-0da1788ee917.png)
