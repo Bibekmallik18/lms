@@ -1,6 +1,17 @@
 # Grades module
+# create student class
+
+class Student:
+    def __init__(self, gradeCurrent, gradeTotal, studentId, isonProbation):
+        self.gradeCurrent = gradeCurrent
+        self.gradeTotal = gradeTotal
+        self.studentId = studentId
+        self.isonProbation = isonProbation
 
 # get student grades by student ID, grades
+s1 = Student(1.0,2.0,123456,True)
+
+print(s1.gradeTotal, s1.isonProbation)
 
 # Calculate total GPA
 
