@@ -3,7 +3,7 @@
 I'm starting a project to build out a Learning Management System (LMS). This will involve the following:
 
 1. [Login page](https://github.com/jasonereid/lms/blob/main/login.html)
-2. User interface
+2. [User interface](https://github.com/jasonereid/lms/blob/main/user-interface.html)
 3. Admin interface 
 4. Course building module
 5. Grade calculation module 
