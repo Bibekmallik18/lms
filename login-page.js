@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
     /* check if both username and password are correct */
     if(username === "user" && password === "pass") {
         alert("You have been successfully logged in.");
-        location.reload();
+        location.assign('./user-interface.html');
     }
     else {
         loginErrorMsg.style.opacity = 1;
