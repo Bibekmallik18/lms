@@ -1,13 +1,16 @@
 # My Learning Management System Project
 
-I'm starting a project to build out a Learning Management System (LMS) in Python. This will involve the following:
+I'm starting a project to build out a Learning Management System (LMS). This will involve the following:
 
-1. User interface (probably built with Flask)
-2. Admin interface (also Flask)
-3. Course building module (Flask)
-4. Grade calculation module (Python)
-5. Grade storage, user info storage (MySQL)
-6. Reporting interface (Flask)
+1. Login page
+2. User interface
+3. Admin interface 
+4. Course building module
+5. Grade calculation module 
+6. Grade storage, user info storage 
+7. Reporting interface
+
+Current tech stack: HTML/CSS, JavaScript
 
 This list will be updated as the project changes.
 
