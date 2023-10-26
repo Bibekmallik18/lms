@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-color: slategray;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center; /* left-right center*/
+    align-items: center; /* top-bottom center*/
+}
+
+a {
+    color: darkcyan;
+}
+
+#main-holder {
+    width: 70%;
+    height: 100%;
+    justify-items: center; /* left-right center*/
+    align-items: center; /* top-bottom center*/
+    background-color: white;
+    border: black;
+    border-radius: 7px;
+}
+
+#ui-header {
+    text-align: center;
+}
+
+.sidebar {
+    margin: 5;
+    padding: 0;
+    width: 150px;
+    background-color: lightsteelblue;
+    position: fixed;
+    height: 50%;
+    overflow: auto;
+    border-style: inset;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 3px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+}
+
+.sidebar a.active {
+    background-color: antiquewhite;
+    color: aqua;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.content {
+    margin-left: 150px;
+    padding-left: 15px;
+}
+
+/* on mobile make it a top bar */
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    opacity: 0.8;
+    width: 100%;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    position: relative;
+    display: none;
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 35px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}

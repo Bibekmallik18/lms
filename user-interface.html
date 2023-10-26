@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Interface - Learning Management System</title>
+    <link rel="stylesheet" href="ui-page.css">
+    <script defer src="ui-page.js"></script>   <!--set the js to use defer so it runs after the page is fully loaded-->
+</head>
+
+<body>
+    <main id="main-holder">
+    <h1 id="ui-header">Welcome to the Learning Management System</h1>
+    <div class="sidebar">
+        <a class="active" href="#home">Home</a>
+        <a href="#grades">Grades</a>
+        <a href="#courses">Courses</a>
+        <a href="#registration">Registration</a>
+    </div>
+    <div class="content">
+        <h3>Welcome User</h3>
+        <h4>Your courses:</h4>
+        <div class="row">
+            <div class="column">
+                <img src="./images/coffee.jpg" alt="coffee" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="./images/study.jpg" alt="study" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="./images/typing.jpg" alt="typing" onclick="myFunction(this);">
+            </div>
+        </div>
+        <div class="container">
+            <!-- close the image-->
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+            <!-- expand the image-->
+            <img id="expandedImg" style="width:75%">
+
+            <!-- course name-->
+            <div id="imgtext"></div>
+        </div>
+    </div>
+
+    </main>
+</body>
+
+</html>
