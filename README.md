@@ -10,6 +10,9 @@ I'm starting a project to build out a Learning Management System (LMS). This wil
 6. Grade storage, user info storage 
 7. Reporting interface
 
+user - user
+password - pass
+
 Current tech stack: HTML/CSS, JavaScript
 
 This list will be updated as the project changes.
